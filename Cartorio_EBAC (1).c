@@ -21,7 +21,8 @@ int main()
 		printf("Escolha a opção desejada:\n");//MENU INICIO.
 		printf("\t1 -Registrar Nomes\n");
 		printf("\t2 -Consultar nomes\n");
-		printf("\t3 -Deletar registro\n\n\n");
+		printf("\t3 -Deletar registro\n");
+		printf("\t4 -Sair\n\n");
 		printf("Opção:");
 	
 	
@@ -40,6 +41,10 @@ int main()
 			break;
 			case 3:
 			deletar();
+			break;
+			case 4:
+			printf("Pbrigado por utilizar.");
+			return 0;
 			break;
 			default:
 			printf(" Opção Inválida!\n");
